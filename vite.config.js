@@ -1,11 +1,13 @@
 import { resolve } from 'path'
 
 export default {
-  root: resolve(__dirname, 'src'),
-  build: {
-    outDir: '../dist'
-  },
-  server: {
-    port: 8080
-  }
+    root: resolve(__dirname, 'src'),
+    base: '/bootstrap2/',
+
+    build: {
+        outDir: '../dist'
+    },
+    server: {
+        port: 8080
+    }
 }
